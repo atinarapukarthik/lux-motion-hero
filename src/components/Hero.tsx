@@ -159,7 +159,7 @@ export default function Hero() {
                 scrollTrigger: {
                     trigger: sectionRef.current,
                     start: "top top",
-                    end: "+=3500",       // long scrub distance for cinematic pacing
+                    end: "+=200%",       // 200vh scroll distance for cinematic pacing
                     pin: true,
                     scrub: 1.5,          // heavy momentum
                     anticipatePin: 1,

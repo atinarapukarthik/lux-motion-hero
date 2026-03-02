@@ -134,9 +134,9 @@ export default function ContentSections() {
             {/* ═══════════ FEATURES ═══════════ */}
             <section
                 ref={featuresRef}
-                className="relative z-10 bg-[#050505] px-6 md:px-12 lg:px-20 pb-32"
+                className="relative z-10 w-full flex flex-col items-center bg-[#050505] px-6 md:px-12 lg:px-20 pb-32"
             >
-                <div className="mx-auto max-w-6xl">
+                <div className="w-full max-w-[1152px]">
                     {/* Section heading */}
                     <div className="mb-20 text-center">
                         <p className="text-[10px] uppercase tracking-[0.4em] text-orange-500 font-medium mb-3">
@@ -187,9 +187,9 @@ export default function ContentSections() {
             {/* ═══════════ GALLERY ═══════════ */}
             <section
                 ref={galleryRef}
-                className="relative z-10 bg-[#050505] px-6 md:px-12 lg:px-20 pb-32"
+                className="relative z-10 w-full flex flex-col items-center bg-[#050505] px-6 md:px-12 lg:px-20 pb-32"
             >
-                <div className="mx-auto max-w-6xl">
+                <div className="w-full max-w-[1152px]">
                     <div className="mb-16 text-center">
                         <p className="text-[10px] uppercase tracking-[0.4em] text-orange-500 font-medium mb-3">
                             Gallery
@@ -225,10 +225,10 @@ export default function ContentSections() {
             </section>
 
             {/* ═══════════ CTA ═══════════ */}
-            <section className="relative z-10 bg-[#050505] px-6 md:px-12 lg:px-20 pb-24">
+            <section className="relative z-10 w-full flex flex-col items-center bg-[#050505] px-6 md:px-12 lg:px-20 pb-24">
                 <div
                     ref={ctaRef}
-                    className="mx-auto max-w-4xl text-center rounded-3xl border border-white/[0.06] bg-gradient-to-b from-white/[0.03] to-transparent backdrop-blur-xl py-20 px-8 shadow-[0_8px_80px_rgba(0,0,0,0.5)]"
+                    className="w-full max-w-[896px] text-center rounded-3xl border border-white/[0.06] bg-gradient-to-b from-white/[0.03] to-transparent backdrop-blur-xl py-20 px-8 shadow-[0_8px_80px_rgba(0,0,0,0.5)]"
                 >
                     <p className="text-[10px] uppercase tracking-[0.5em] text-orange-500 font-medium mb-4">
                         Reserve yours
@@ -255,8 +255,8 @@ export default function ContentSections() {
             </section>
 
             {/* ═══════════ FOOTER ═══════════ */}
-            <footer className="relative z-10 bg-[#050505] border-t border-white/[0.04] py-12 px-6">
-                <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-6">
+            <footer className="relative z-10 w-full flex flex-col items-center bg-[#050505] border-t border-white/[0.04] py-12 px-6">
+                <div className="w-full max-w-[1152px] flex flex-col md:flex-row items-center justify-between gap-6">
                     <div className="flex items-center gap-3">
                         <div className="h-2 w-2 rounded-full bg-orange-500 glow-dot" />
                         <span className="text-sm font-semibold tracking-widest uppercase text-white">
